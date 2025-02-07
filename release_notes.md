@@ -1,1 +1,1 @@
-{"message":"Resource not accessible by personal access token","documentation_url":"https://docs.github.com/rest/releases/releases#generate-release-notes-content-for-a-release","status":"403"}
+**Full Changelog**: https://github.com/caustic-sam/world-papers/commits/v2025.02.07.1621
