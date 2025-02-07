@@ -1,14 +1,14 @@
 title,body,assignees,labels,milestone
-"Setup GitHub Repo","Initialize repository and push the first commit",,"Sprint 1, Backend",1
-"Setup Azure DevOps","Integrate GitHub with Azure DevOps for CI/CD",,"Sprint 1, DevOps",1
-"Scrape News Sources","Develop scraping scripts for sources without APIs",,"Sprint 2, Scraping",2
-"Integrate News APIs","Fetch headlines from NewsAPI, Reuters API, etc.",,"Sprint 2, Backend",2
-"Implement Translation API","Connect Google Translate / DeepL API",,"Sprint 3, Translation",3
-"Store Translated Headlines","Design database schema to store translations",,"Sprint 3, Backend",3
-"Develop REST API","Create API endpoints for fetching headlines",,"Sprint 4, Backend",4
-"Build Frontend UI","Design homepage, filtering system, and news layout",,"Sprint 5, Frontend",5
-"Implement User Preferences","Allow users to set favorite countries and topics",,"Sprint 6, Frontend",6
-"Optimize Performance","Cache translations and optimize API queries",,"Sprint 7, Performance",7
+"Setup GitHub Repo","Initialize repository and push the first commit",,"Sprint 1,Backend",1
+"Setup Azure DevOps","Integrate GitHub with Azure DevOps for CI/CD",,"Sprint 1,DevOps",1
+"Scrape News Sources","Develop scraping scripts for sources without APIs",,"Sprint 2,Scraping",2
+"Integrate News APIs","Fetch headlines from NewsAPI, Reuters API, etc.",,"Sprint 2,Backend",2
+"Implement Translation API","Connect Google Translate / DeepL API",,"Sprint 3,Translation",3
+"Store Translated Headlines","Design database schema to store translations",,"Sprint 3,Backend",3
+"Develop REST API","Create API endpoints for fetching headlines",,"Sprint 4,Backend",4
+"Build Frontend UI","Design homepage, filtering system, and news layout",,"Sprint 5,Frontend",5
+"Implement User Preferences","Allow users to set favorite countries and topics",,"Sprint 6,Frontend",6
+"Optimize Performance","Cache translations and optimize API queries",,"Sprint 7,Performance",7
 "Secure API & Database","Implement authentication, rate limiting, and security audits",,"Sprint 8, Security",8
-"Deploy to Azure","Launch project on Azure App Services and PostgreSQL",,"Sprint 9, DevOps",9
-"Deploy to Raspberry Pi","Ensure compatibility and test local deployment",,"Sprint 9, Deployment",9
+"Deploy to Azure","Launch project on Azure App Services and PostgreSQL",,"Sprint 9,DevOps",9
+"Deploy to Raspberry Pi","Ensure compatibility and test local deployment",,"Sprint 9,Deployment",9
