@@ -169,3 +169,70 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore environment variables and secrets
+.env
+.env.local
+config.json
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs and debug files
+logs/
+*.log
+debug.log
+
+# Ignore database files (if using SQLite for local testing)
+*.sqlite3
+*.db
+
+# Ignore Python dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled Next.js files
+/frontend/.next/
+frontend/out/
+frontend/node_modules/
+
+# Ignore NPM debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+*.pyc
+
+# Ignore deployment and package files
+.DS_Store
+*.bak
+*.swp
+*.swo
+
+# Ignore Azure DevOps & GitHub Actions cache
+.azure/
+.github/workflows/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Docker-related files
+docker-compose.override.yml
+*.dockerignore
