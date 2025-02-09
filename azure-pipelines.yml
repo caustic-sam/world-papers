@@ -1,0 +1,33 @@
+trigger:
+  branches:
+    include:
+      - main  # Runs on pushes to the main branch
+
+pool:
+  vmImage: 'ubuntu-latest'  # Uses a Linux VM for builds
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.x'
+      addToPath: true
+
+  - script: |
+      python -m venv venv
+      source venv/bin/activate
+      pip install -r requirements.txt
+    displayName: 'Set up Python virtual environment'
+
+  - script: |
+      source venv/bin/activate
+      python -m unittest discover tests
+    displayName: 'Run Unit Tests'
+
+  - script: |
+      echo "Linting..."
+      flake8 .
+    displayName: 'Run Code Linter'
+
+  - script: |
+      echo "Build Complete!"
+    displayName: 'Finish'
