@@ -120,6 +120,13 @@ ipython_config.py
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
 
+venv/
+venv_backup/
+bin/
+lib64/
+*.pyc
+__pycache__/
+
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
@@ -236,3 +243,12 @@ terraform.tfstate.backup
 # Ignore Docker-related files
 docker-compose.override.yml
 *.dockerignore
+
+# Ignore Python virtual environments and generated files
+venv/
+venv_backup/
+bin/
+lib64/
+*.pyc
+__pycache__/
+.DS_Store
